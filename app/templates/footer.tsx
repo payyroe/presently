@@ -74,7 +74,7 @@ export default function Footer() {
               <a href="https://github.com/payyroe">
                 <FaGithub size={25} />
               </a>
-            </li>
+            </li> 
           </ul>
         </div>
       </div>

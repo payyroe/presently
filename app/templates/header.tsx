@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Header() {
@@ -24,7 +26,15 @@ export default function Header() {
           >
             Manfaat
           </Link>
-          <button className="btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full">
+          <button
+            type="button"
+            onClick={() => {
+              document
+                .getElementById("kontak")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full"
+          >
             Kontak Kami
           </button>
         </nav>

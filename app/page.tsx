@@ -231,7 +231,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="w-full" id="kontak">
         <div className="max-w-7xl mx-auto px-10 sm:px-6 md:px-8">
           <div className="bg-primary p-12 mb-20 text-start shadow-lg shadow-gray-400 border border-gray-50 rounded-4xl">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between">
