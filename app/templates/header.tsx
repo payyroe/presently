@@ -22,22 +22,22 @@ const Header = () => {
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="ml-4 flex items-center space-x-4">
+              <div className="ml-4 flex items-center space-x-8">
                 <Link
                   href="#beranda"
-                  className="text-lg text-gray-600 hover:text-gray-800"
+                  className="nav-link"
                 >
                   Beranda
                 </Link>
                 <Link
                   href="#fitur"
-                  className="text-lg text-gray-600 hover:text-gray-800"
+                  className="nav-link"
                 >
                   Fitur
                 </Link>
                 <Link
                   href="#manfaat"
-                  className="text-lg text-gray-600 hover:text-gray-800"
+                  className="nav-link"
                 >
                   Manfaat
                 </Link>
@@ -48,7 +48,7 @@ const Header = () => {
                       .getElementById("kontak")
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full"
+                  className="btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full hover:shadow-lg transition-shadow duration-300 ease-in-out"
                 >
                   Kontak Kami
                 </button>
@@ -56,7 +56,7 @@ const Header = () => {
             </div>
             <div className="md:hidden flex items-center">
               <button
-                className="inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-700"
                 onClick={toggleNavbar}
               >
                 {isClick ? (
@@ -79,19 +79,19 @@ const Header = () => {
             <div className="px-2 pb-4 space-y-4 sm:px-8">
               <Link
                 href="#beranda"
-                className="block text-lg text-gray-600 hover:text-gray-800"
+                className="block text-lg text-gray-600 hover:text-black"
               >
                 Beranda
               </Link>
               <Link
                 href="#fitur"
-                className="block text-lg text-gray-600 hover:text-gray-800"
+                className="block text-lg text-gray-600 hover:text-black"
               >
                 Fitur
               </Link>
               <Link
                 href="#manfaat"
-                className="block text-lg text-gray-600 hover:text-gray-800"
+                className="block text-lg text-gray-600 hover:text-black"
               >
                 Manfaat
               </Link>
@@ -102,7 +102,7 @@ const Header = () => {
                     .getElementById("kontak")
                     ?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="block btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full"
+                className="block btn-primary text-xl font-semibold text-white px-4 py-2 rounded-full hover:shadow-lg transition-shadow duration-300 ease-in-out"
               >
                 Kontak Kami
               </button>
